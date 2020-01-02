@@ -1,6 +1,0 @@
-echo "# quantum" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/cadonohue/quantum.git
-git push -u origin master
