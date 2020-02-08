@@ -1,3 +1,12 @@
+python3 -m venv env
+source env/bin/activate
+pip install dwave-ocean-sdk
+
+dwave config create
+# API endpoint URL = https://cloud.dwavesys.com/sapi
+# Authentication token = <copy it from the dashboard>
+dwave ping
+
 from dwave.system.samplers import DWaveSampler
 from dwave.system.composites import EmbeddingComposite
 # Set Q for the problem QUBO
